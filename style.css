@@ -28,6 +28,11 @@ body{
     font-weight: bold;
 }
 
+#services{
+    font-size: 30px;
+    padding: 0px;
+}
+
 .nav-links a:hover{
     color: lightslategray;
 }
