@@ -1,0 +1,11 @@
+<tr>
+    <td>
+    <b><a id="ID" href="#ID" style="color: black">TITLE</a></b>
+    <br>
+    STUFF HERE
+    </td>
+    <td>
+    <img src="THUMBNAIL" width="120" height="120"></img>
+    </td>
+</tr>
+<tr><td colspan="2" height="30"></td></tr>
