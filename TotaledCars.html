@@ -31,19 +31,25 @@
             You do this by asking it if an image (one from the dataset) is real. If it says yes then great! It's correct. If it thinks it's fake (which it's not) then the model trys to look at it differently. Rise and repeat.
             That’s called the discriminator.
             <br>
+            <br>
             Next is the generator. (the fun part)
             Now the generator will try to make an image (at first it’s just random, it has to learn). Then it will “ask” the discriminator if it's real or fake. If the discriminator thinks it’s real then the generator did a good job. If not, then the generator has some tweaks to do.
             <br>
             This whole process is trying to find the best weights. These are what the kernels value is. 
             <br>
+            <br>
             What's a kernel?
             The model sees and makes with kernels. It scans over the images, multiplying a grid of numbers with the image (an image is 3 sets, R G and B, of numbers in a grid, pixels) When the model multiplies a grid of numbers by its weights it can make a car!
             <br>
+            <br>
             Now repeat this ~50,000 times
+            <br>
+            <br>
             <br>
             Testing
             By this point you have (hopefully) trained the generator to make some realistic images! -ish
-            In my case by best results was:
+            In my case by best results were:
+            <br>
             <br>
             You can see the wheels, the side & doors, the bumper (which is perfect) and the top/windshield.
             <br>
